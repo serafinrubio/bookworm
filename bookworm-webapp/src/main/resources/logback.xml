@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{YYYY-MM-dd HH:mm:ss} [%file:%line] [%thread] [%level] %logger{5}.%M - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.serafinrubio.bookworm" level="ALL">
+        <appender-ref ref="console"/>
+    </logger>
+    <logger name="jdbc.sqltiming" level="ALL"/>
+</configuration>

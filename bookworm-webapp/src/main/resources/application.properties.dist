@@ -1,0 +1,10 @@
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://nnn.nnn.nnn.nnn:nnnn
+db.username=username
+db.password=password
+
+#Hibernate Configuration:
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+hibernate.show_sql=true
+hibernate.generate_ddl=false
+entitymanager.packages.to.scan=com.serafinrubio.bookworm.model

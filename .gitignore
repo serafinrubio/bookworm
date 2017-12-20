@@ -1,0 +1,67 @@
+# Eclipse
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/
+logs/**
+log/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# Directories #
+/build/
+/bin/
+target/
+
+
+# OS Files #
+.DS_Store
+
+# Compile files #
+*.class
+
+# Properties files #
+*.properties
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+*.iml
+*.ipr
+.idea/
